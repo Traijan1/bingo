@@ -19,6 +19,8 @@ app.MapGet("/board", (string id) => {
     if(!BoardDatabase.Boards.ContainsKey(id))
         return Results.NotFound(id);
         
+    Console.WriteLine(BoardDatabase.Boards[id]);
+
     return Results.Ok(BoardDatabase.Boards[id]);
 });
 
@@ -42,8 +44,9 @@ app.MapGet("/initBoard", () => {
 });
 
 app.MapHub<BingoHub>("/bingoHub").RequireCors(policy => policy
-        .WithOrigins("*")
+        .WithOrigins("http://localhost:8081")
         .AllowAnyMethod()
-        .AllowAnyHeader());
+        .AllowAnyHeader()
+        .AllowCredentials());
 
 app.Run();
