@@ -3,8 +3,8 @@ using System.Text.Json.Serialization;
 namespace backend;
 
 class Board {
-    public List<Field> Fields { get; set; }
-    public string Id { get; set; }
+    [JsonPropertyName("fields")] public List<Field> Fields { get; set; }
+    [JsonPropertyName("id")] public string Id { get; set; }
 
 
     public Board() {

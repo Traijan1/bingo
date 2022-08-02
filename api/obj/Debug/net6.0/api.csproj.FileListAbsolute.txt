@@ -25,3 +25,4 @@
 /home/trai/shares/cloud/Workspace/Web/Vue/bingo/api/obj/Debug/net6.0/ref/api.dll
 /home/trai/shares/cloud/Workspace/Web/Vue/bingo/api/obj/Debug/net6.0/api.pdb
 /home/trai/shares/cloud/Workspace/Web/Vue/bingo/api/obj/Debug/net6.0/api.genruntimeconfig.cache
+/home/trai/shares/cloud/Workspace/Web/Vue/bingo/api/bin/Debug/net6.0/boards.json
