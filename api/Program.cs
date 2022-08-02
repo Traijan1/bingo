@@ -19,6 +19,8 @@ app.MapGet("/board", (string id) => {
     if(!BoardDatabase.Boards.ContainsKey(id))
         return Results.NotFound(id);
         
+    Console.WriteLine(BoardDatabase.Boards[id]);
+
     return Results.Ok(BoardDatabase.Boards[id]);
 });
 
