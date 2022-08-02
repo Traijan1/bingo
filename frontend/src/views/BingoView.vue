@@ -3,10 +3,9 @@
 </template>
 
 <script setup lang="ts">
-    import { defineProps, onBeforeMount, onUpdated, ref, Ref } from 'vue';
+    import { defineProps, onBeforeMount, ref, Ref } from 'vue';
     import { Board } from '../models/board';
     import BingoBoard from "../components/BingoBoard.vue";
-    import { Field } from "@/models/field";
     import BingoService from "@/services/BingoService";
     import { BingoHub } from "@/services/BingoHub";
 
@@ -18,14 +17,13 @@
 
     async function create(): Promise<void> {
         board.value = await BingoService.getBoard(props.id);
-        console.log(board.value);
 
         BingoHub.on("RecvBoard", b => {
             board.value = b;
             console.log(board);
         });
-        await BingoHub.start();
 
+        await BingoHub.start();
         BingoHub.send("RecvClient", props.id);
     }
 

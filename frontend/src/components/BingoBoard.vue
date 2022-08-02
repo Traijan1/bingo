@@ -19,7 +19,6 @@
     const columnSize = Math.round(Math.sqrt(props.board.fields.length));
 
     function click(field: Field) {
-        console.log("click");
         field.isDone = !field.isDone;
         rerender.value++;
 
