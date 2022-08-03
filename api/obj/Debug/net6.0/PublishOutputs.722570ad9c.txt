@@ -1,0 +1,12 @@
+/home/trai/shares/cloud/Workspace/Web/Vue/bingo/api/bin/Debug/net6.0/publish/api
+/home/trai/shares/cloud/Workspace/Web/Vue/bingo/api/bin/Debug/net6.0/publish/appsettings.Development.json
+/home/trai/shares/cloud/Workspace/Web/Vue/bingo/api/bin/Debug/net6.0/publish/appsettings.json
+/home/trai/shares/cloud/Workspace/Web/Vue/bingo/api/bin/Debug/net6.0/publish/boards.json
+/home/trai/shares/cloud/Workspace/Web/Vue/bingo/api/bin/Debug/net6.0/publish/api.dll
+/home/trai/shares/cloud/Workspace/Web/Vue/bingo/api/bin/Debug/net6.0/publish/api.deps.json
+/home/trai/shares/cloud/Workspace/Web/Vue/bingo/api/bin/Debug/net6.0/publish/api.runtimeconfig.json
+/home/trai/shares/cloud/Workspace/Web/Vue/bingo/api/bin/Debug/net6.0/publish/api.pdb
+/home/trai/shares/cloud/Workspace/Web/Vue/bingo/api/bin/Debug/net6.0/publish/Microsoft.OpenApi.dll
+/home/trai/shares/cloud/Workspace/Web/Vue/bingo/api/bin/Debug/net6.0/publish/Swashbuckle.AspNetCore.Swagger.dll
+/home/trai/shares/cloud/Workspace/Web/Vue/bingo/api/bin/Debug/net6.0/publish/Swashbuckle.AspNetCore.SwaggerGen.dll
+/home/trai/shares/cloud/Workspace/Web/Vue/bingo/api/bin/Debug/net6.0/publish/Swashbuckle.AspNetCore.SwaggerUI.dll

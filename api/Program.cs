@@ -44,7 +44,7 @@ app.MapGet("/initBoard", () => {
 });
 
 app.MapHub<BingoHub>("/bingoHub").RequireCors(policy => policy
-        .WithOrigins("http://localhost:8081")
+        .WithOrigins("http://localhost:8081", "http://traijan.de")
         .AllowAnyMethod()
         .AllowAnyHeader()
         .AllowCredentials());
