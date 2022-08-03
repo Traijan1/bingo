@@ -1,7 +1,8 @@
 import { Board } from "@/models/board";
 
 class BingoService {
-    domain = "http://localhost:5233";
+    // domain = "http://localhost:5233"; // Testing
+    domain = "http://traijan.de:5000"; // Production
 
     public async getBoard(id: string): Promise<Board> {
         const response = await fetch(`${this.domain}/board?id=${id}`);
