@@ -1,7 +1,7 @@
 import { HubConnectionBuilder } from "@microsoft/signalr";
+import url from "@/assets/domain.json";
 
-// const domain = "http://localhost:5233/bingoHub"; // Testing
-const domain = "http://traijan.de:5000/bingoHub"; // Production
+const domain = `${url}/bingoHub`;
 
 const BingoHub = new HubConnectionBuilder().withUrl(domain).build();
 
